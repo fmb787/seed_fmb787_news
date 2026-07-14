@@ -18,3 +18,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NEWS_GITHUB_TOKEN }}
           FINNHUB_TOKEN: ${{ secrets.FINNHUB_TOKEN }}
+          JBLANKED_TOKEN: ${{ secrets.JBLANKED_TOKEN }}
