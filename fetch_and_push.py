@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 GITHUB_TOKEN   = os.environ["GITHUB_TOKEN"]
 JBLANKED_TOKEN = os.environ["JBLANKED_TOKEN"]
 GITHUB_USER    = "fmb787"
-GITHUB_REPO    = "fmb-news-seeds"
+GITHUB_REPO = "seed_fmb787_news"
 
 DB = {
     "non-farm":      ("positive", "actual_high=USD_up/actual_low=USD_down"),
